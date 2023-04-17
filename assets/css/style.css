@@ -11,9 +11,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }
 .colorcards{
     background-color: aquamarine;
+    background-position: center;
 }
 .sizecard{
     width: 286px;
@@ -32,7 +34,7 @@ body {
     line-height: 60px;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 50%;
     color: #f1f1f1;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
@@ -41,4 +43,30 @@ body {
 }
 .redessociales a:hover {
     transform: scale(1.2);
+}
+.textocentrado{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.midtext{
+    margin-top: 116px;
+}
+.textcentrocard{
+    text-align: center;
+}
+.piedepagina{
+    padding: 10px;
+    background-color: rgba(1, 24, 14, 0.5);
+    margin-top: 10px;
+}
+.footerviajeschile{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: -65px;
+    color: #f1f1f1;
 }
